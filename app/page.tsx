@@ -10,6 +10,9 @@ export default function Home() {
         <h1 className="text-4xl font-semibold tracking-tight text-black dark:text-zinc-50">
           {greeting}
         </h1>
+        <p className="text-xl text-zinc-700 dark:text-zinc-300">
+          Built during the Building with AI agents course.
+        </p>
         <Suspense fallback={<p className="text-lg text-zinc-600 dark:text-zinc-400">&nbsp;</p>}>
           <TodaysDate />
         </Suspense>
